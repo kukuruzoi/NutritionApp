@@ -1358,11 +1358,6 @@ class NutritionApp:
         # Поле веса
         weight_frame = tk.Frame(self.add_frame, bg=self.bg_color)
         weight_frame.pack(pady=5)
-        tk.Label(weight_frame, text="Вес (г):", font=self.get_safe_font(self.fonts, size=14),
-                 bg=self.bg_color).pack(side="left")
-        self.weight_var = tk.IntVar(value=100)
-        tk.Spinbox(weight_frame, from_=10, to=1000, textvariable=self.weight_var, bg=self.bg_color,
-                  width=5, command=lambda: None).pack(side="left", padx=5)
         
         # Кнопки
         btn_frame = tk.Frame(self.add_frame, bg=self.bg_color)
