@@ -1,0 +1,8 @@
+config.py
+__pycache__/
+logs/
+othcet/
+*.sql
+session.json
+test.py
+txt.txt
