@@ -2,7 +2,9 @@ config.py
 __pycache__/
 logs/
 otchet/
-*.sql
+create.sql
+insert.sql
+select.sql
 session.json
 test.py
 txt.txt
